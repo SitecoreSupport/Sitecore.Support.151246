@@ -1,4 +1,4 @@
-# Sitecore.Support.151246
+# Sitecore.Support.151246.299679
 * Ampersand (&) in query can cause AzureSearchServiceRESTCallException (151246)
 * With language fallback enabled, item gets deleted from the Azure search index (299679)
 
