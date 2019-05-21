@@ -44,5 +44,7 @@
       EnsureInitializedMethodInfo.Invoke(this, new object[0]);
       return new Sitecore.Support.ContentSearch.Azure.CloudSearchSearchContext(base.ServiceCollectionClient, options);
     }
+
+    public override IIndexOperations Operations => new Sitecore.Support.ContentSearch.Azure.CloudSearchIndexOperations(this);
   }
 }
